@@ -1,0 +1,29 @@
+{
+  "name": "regen-ai",
+  "owner": {
+    "name": "Regen Network",
+    "url": "https://github.com/regen-network"
+  },
+  "plugins": [
+    {
+      "name": "ledger",
+      "source": "./plugins/ledger/",
+      "description": "Regen Ledger blockchain data - credit classes, batches, balances"
+    },
+    {
+      "name": "koi",
+      "source": "./plugins/koi/",
+      "description": "Knowledge Ontology Integration - ecological data and SPARQL queries"
+    },
+    {
+      "name": "network",
+      "source": "./plugins/network/",
+      "description": "Python-based Regen Network tools and analysis"
+    },
+    {
+      "name": "registry",
+      "source": "./plugins/registry/",
+      "description": "Carbon credit document review and compliance analysis"
+    }
+  ]
+}

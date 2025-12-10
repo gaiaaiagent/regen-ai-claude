@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "registry-review": {
+      "command": "uvx",
+      "args": ["registry-review-mcp"],
+      "env": {
+        "REGISTRY_REVIEW_LLM_EXTRACTION_ENABLED": "true"
+      },
+      "description": "Registry Review MCP Server - Automated document review for carbon credit projects"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "regen-ledger": {
+      "command": "npx",
+      "args": ["-y", "regen-ledger-mcp@latest"],
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "description": "Regen Network MCP Server - Access to Regen Ledger blockchain data including credit classes, batches, and balances"
+    }
+  }
+}

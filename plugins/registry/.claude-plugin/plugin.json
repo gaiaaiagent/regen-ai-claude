@@ -1,0 +1,12 @@
+{
+  "name": "registry",
+  "version": "1.0.0",
+  "description": "Regen Registry Review MCP - Automated document review and analysis for carbon credit projects",
+  "author": {
+    "name": "Gaia AI Agent",
+    "url": "https://github.com/gaiaaiagent"
+  },
+  "homepage": "https://github.com/gaiaaiagent/regen-registry-review-mcp",
+  "license": "Apache-2.0",
+  "keywords": ["regen", "registry", "carbon-credits", "document-review", "mcp", "verification"]
+}

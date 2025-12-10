@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "regen-network": {
+      "command": "uvx",
+      "args": ["regen-python-mcp"],
+      "env": {
+        "REGEN_MCP_LOG_LEVEL": "INFO"
+      },
+      "description": "Regen Python MCP Server - Python-based Regen Network tools for ecocredit queries"
+    }
+  }
+}

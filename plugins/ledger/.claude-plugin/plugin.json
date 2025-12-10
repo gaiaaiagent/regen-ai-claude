@@ -1,0 +1,12 @@
+{
+  "name": "ledger",
+  "version": "1.0.0",
+  "description": "Regen Ledger MCP - Access Regen Network blockchain data, credit classes, batches, and balances",
+  "author": {
+    "name": "Regen Network",
+    "url": "https://github.com/regen-network"
+  },
+  "homepage": "https://github.com/regen-network/mcp",
+  "license": "Apache-2.0",
+  "keywords": ["regen", "blockchain", "ledger", "carbon-credits", "cosmos", "mcp"]
+}

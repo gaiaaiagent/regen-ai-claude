@@ -1,0 +1,21 @@
+# MCP source repositories (published to npm/PyPI)
+resources/
+mcps/
+
+# Node
+node_modules/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+dist/
+*.egg-info/
+
+# OS
+.DS_Store
+
+# Environment
+.env
+.env.local
