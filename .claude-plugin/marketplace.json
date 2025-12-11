@@ -6,11 +6,6 @@
   },
   "plugins": [
     {
-      "name": "ledger",
-      "source": "./plugins/ledger/",
-      "description": "Regen Ledger blockchain data - credit classes, batches, balances"
-    },
-    {
       "name": "koi",
       "source": "./plugins/koi/",
       "description": "Knowledge Ontology Integration - ecological data and SPARQL queries"

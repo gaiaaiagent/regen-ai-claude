@@ -1,19 +1,18 @@
 # Regen AI - Claude Code Plugin Marketplace
 
-Zero-config access to the Regen Network ecosystem through four MCP server plugins.
+Zero-config access to the Regen Network ecosystem through three MCP server plugins.
 
 ## Plugins
 
 | Plugin | Package | Description |
 |--------|---------|-------------|
-| **ledger** | [regen-ledger-mcp](https://www.npmjs.com/package/regen-ledger-mcp) | Blockchain data - credit classes, batches, balances |
 | **koi** | [regen-koi-mcp](https://www.npmjs.com/package/regen-koi-mcp) | Knowledge graph - ecological data and SPARQL queries |
-| **network** | [regen-python-mcp](https://pypi.org/project/regen-python-mcp/) | Python tools - governance, analytics, portfolio analysis |
+| **network** | [regen-python-mcp](https://pypi.org/project/regen-python-mcp/) | Blockchain data, governance, analytics, portfolio analysis |
 | **registry** | [registry-review-mcp](https://pypi.org/project/registry-review-mcp/) | Document review - carbon credit project compliance |
 
 ## Prerequisites
 
-**Node.js plugins (ledger, koi):** Node.js 18+
+**Node.js plugins (koi):** Node.js 18+
 
 **Python plugins (network, registry):** uv
 ```bash
@@ -31,7 +30,6 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 ### 2. Install Plugins
 
 ```bash
-/plugin install ledger@regen-ai
 /plugin install koi@regen-ai
 /plugin install network@regen-ai
 /plugin install registry@regen-ai
