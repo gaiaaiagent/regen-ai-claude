@@ -6,9 +6,9 @@ Zero-config access to the Regen Network ecosystem through three MCP server plugi
 
 | Plugin | Package | Description |
 |--------|---------|-------------|
-| **koi** | [regen-koi-mcp](https://www.npmjs.com/package/regen-koi-mcp) | Knowledge graph - ecological data and SPARQL queries |
-| **ledger** | [regen-python-mcp](https://pypi.org/project/regen-python-mcp/) | Blockchain data, governance, analytics, portfolio analysis |
-| **registry-review** | [registry-review-mcp](https://pypi.org/project/registry-review-mcp/) | Document review - carbon credit project compliance |
+| **koi** | [regen-koi-mcp](https://www.npmjs.com/package/regen-koi-mcp) | Knowledge Organizational Infrastructure - Regen Commons - Knowledge Graphs - Embeddings |
+| **ledger** | [regen-python-mcp](https://pypi.org/project/regen-python-mcp/) | Regen Ledger, Ecocredits, Sales, Governance, Portfolios, Regen Accounts |
+| **registry-review** | [registry-review-mcp](https://pypi.org/project/registry-review-mcp/) | Regen Project Registration Assistance - Methodology Verification - Automation |
 
 ## Prerequisites
 
