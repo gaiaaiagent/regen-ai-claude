@@ -4,7 +4,7 @@
       "command": "uvx",
       "args": [
         "--from",
-        "git+https://github.com/regen-network/registry-review-mcp.git",
+        "git+ssh://git@github.com/regen-network/registry-review-mcp.git",
         "registry-review-mcp"
       ],
       "env": {
