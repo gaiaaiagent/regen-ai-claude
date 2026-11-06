@@ -2,7 +2,7 @@
   "mcpServers": {
     "regen-network": {
       "command": "uvx",
-      "args": ["regen-python-mcp"],
+      "args": ["--with", "mcp<2", "regen-python-mcp"],
       "env": {
         "REGEN_MCP_LOG_LEVEL": "INFO"
       },

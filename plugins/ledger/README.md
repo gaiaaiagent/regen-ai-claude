@@ -23,7 +23,7 @@ Access Regen Network blockchain data through the Regen Ledger MCP server.
 /mcp
 ```
 
-No setup required - the MCP server runs directly from PyPI via `uvx`.
+No setup required - the MCP server runs directly from PyPI via `uvx`. The plugin pins `mcp<2` because `regen-python-mcp` imports `mcp.server.fastmcp`, which `mcp` 2.x removed.
 
 ## Package
 
